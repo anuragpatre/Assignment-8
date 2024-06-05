@@ -1,0 +1,263 @@
+body {
+    background-color: #535d55ba;
+}
+
+.heading {
+    font-family: cursive;
+    font-size: 70px;
+    color: rgb(119, 119, 60);
+    display: block;
+    text-align: center;
+}
+
+.line {
+    height: 1px;
+    background-color: rgb(25, 25, 3);
+}
+
+.cards-container {
+    height: 240px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.card1 {
+    width: 200px;
+    height: 200px;
+    background-color: wheat;
+    border: 5px solid whitesmoke;
+    margin-bottom: 50px;
+    border-radius: 5px;
+
+
+}
+
+.card2 {
+    width: 200px;
+    height: 200px;
+    background-color: wheat;
+    border: 5px solid whitesmoke;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.card3 {
+    width: 200px;
+    height: 200px;
+    background-color: wheat;
+    border: 5px solid whitesmoke;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.card4 {
+    width: 200px;
+    height: 200px;
+    background-color: wheat;
+    border: 5px solid whitesmoke;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.img1 {
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    height: 210px;
+    width: 280px;
+    padding: 10px;
+}
+
+.text1 {
+    font-size: 35px;
+    font-family: "Roboto Slab", serif;
+    color: beige;
+    text-align: center;
+    display: block;
+}
+
+.text2 {
+    font-size: 40px;
+    font-family: "Roboto Slab", serif;
+    color: beige;
+    margin-top: 400px;
+    position: absolute;
+}
+
+@media screen and (max-width: 500px) {
+    .heading {
+        font-family: "Roboto Slab", serif;
+        font-size: 50px;
+        color: beige;
+        display: block;
+        text-align: center;
+    }
+
+    .text2 {
+        font-size: 26px;
+        font-family: "Roboto Slab", serif;
+        color: beige;
+        margin-top: 2650px;
+        text-align: center;
+        padding-bottom: 90px;
+    }
+
+    .card1 {
+        width: 300px;
+        height: 300px;
+        background-color: #663500;
+        border: 5px solid beige;
+        margin-bottom: 50px;
+        border-radius: 5px;
+
+
+    }
+
+    .card2 {
+        width: 300px;
+        height: 300px;
+        background-color: #663500;
+        border: 5px solid beige;
+        margin-bottom: 50px;
+        border-radius: 5px;
+    }
+
+    .card3 {
+        width: 300px;
+        height: 300px;
+        background-color: #663500;
+        border: 5px solid beige;
+        margin-bottom: 50px;
+        border-radius: 5px;
+    }
+
+    .card4 {
+        width: 300px;
+        height: 300px;
+        background-color: #663500;
+        border: 5px solid beige;
+        margin-bottom: 50px;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .heading {
+        font-family: "Roboto Slab", serif;
+        font-size: 50px;
+        color: beige;
+        display: block;
+        text-align: center;
+    }
+
+    .text2 {
+        font-size: 26px;
+        font-family: "Roboto Slab", serif;
+        color: beige;
+        margin-top: 2650px;
+        text-align: center;
+        padding-bottom: 90px;
+    }
+
+    .card1 {
+        width: 300px;
+        height: 300px;
+        background-color: #663500;
+        border: 5px solid beige;
+        margin-bottom: 50px;
+        border-radius: 5px;
+
+
+    }
+
+    .card2 {
+        width: 300px;
+        height: 300px;
+        background-color: #663500;
+        border: 5px solid beige;
+        margin-bottom: 50px;
+        border-radius: 5px;
+    }
+
+    .card3 {
+        width: 300px;
+        height: 300px;
+        background-color: #663500;
+        border: 5px solid beige;
+        margin-bottom: 50px;
+        border-radius: 5px;
+    }
+
+    .card4 {
+        width: 300px;
+        height: 300px;
+        background-color: #663500;
+        border: 5px solid beige;
+        margin-bottom: 50px;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .heading {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 70px;
+        color: beige;
+        display: block;
+        text-align: center;
+    }
+
+    .text2 {
+        font-size: 26px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: beige;
+        margin-top: 1300px;
+        text-align: center;
+        padding-bottom: 90px;
+    }
+
+    .card1 {
+        width: 300px;
+        height: 300px;
+        background-color: #45681090;
+        border: 5px solid rgb(212, 212, 139);
+        margin-bottom: 40px;
+        border-radius: 5px;
+
+
+    }
+
+    .card2 {
+        width: 300px;
+        height: 300px;
+        background-color: #45681090;
+        border: 5px solid rgb(212, 212, 139);
+        margin-bottom: 40px;
+        border-radius: 5px;
+    }
+
+    .card3 {
+        width: 300px;
+        height: 300px;
+        background-color: #45681090;
+        border: 5px solid rgb(212, 212, 139);
+        margin-bottom: 40px;
+        border-radius: 5px;
+    }
+
+    .card4 {
+        width: 300px;
+        height: 300px;
+        background-color: #45681090;
+        border: 5px solid rgb(212, 212, 139);
+        margin-bottom: 40px;
+        border-radius: 5px;
+    }
+}
